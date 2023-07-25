@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+
+    <h1 class=" calc
+     text-center">CALCULATOR</h1>
+
+    <div class=" lg-12 md-12 sm-12 calculator">
+       <form action="">
+        <p class="text-light mx-2 casio">CASIO</p>
+         <input placeholder="" id="display" type="text" readonly >
+         <br>
+         <input type="button" name="" class="button number" onclick="btnClick(value)" value="7">
+         <input type="button" name="" class="button number" onclick="btnClick(value)" value="8">
+         <input type="button" name="" class="button number" onclick="btnClick(value)" value="9">
+         <input type="button" name="" class="button operator" onclick="btnClick(value)" value="/">
+
+         <br>
+
+         <input type="button" name="" class="button number" onclick="btnClick(value)" value="4">
+         <input type="button" name="" class="button number" onclick="btnClick(value)" value="5">
+         <input type="button" name="" class="button number" onclick="btnClick(value)" value="6">
+         <input type="button" name="" class="button operator" onclick="btnClick(value)" value="*">
+
+         <br>
+
+         <input type="button" name="" class="button number" onclick="btnClick(value)" value="1">
+         <input type="button" name="" class="button number" onclick="btnClick(value)" value="2">
+         <input type="button" name="" class="button number" onclick="btnClick(value)" value="3">
+         <input type="button" name="" class="button operator" onclick="btnClick(value)" value="+">
+
+         <br>
+
+         <input type="button"  name="" class="button clear" onclick="clearDisplay()" value="clear">
+         <input type="button" name="" class="button number" onclick="btnClick(value)" value="0">
+         <input type="button" name="" class="button result" onclick="calculate()" value="=">
+         <input type="button" name="" class="button operator" onclick="btnClick(value)" value="-">
+         <input type="button" class="button number" onclick="del()"  value="&#9003">
+
+       </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
